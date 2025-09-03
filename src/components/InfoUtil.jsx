@@ -11,8 +11,7 @@ const InfoUtil = () => {
           Info útil
         </h3>
         <p className="text-lime-900/80 mb-6 leading-relaxed text-xl">
-          Reunimos algunos datos para que puedan organizarse mejor el día de la
-          boda.
+          Reunimos algunos datos para que puedan organizarse mejor el día del casamiento.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <button
@@ -58,11 +57,12 @@ const InfoUtil = () => {
                     <li>Las Marías Hotel Boutique</li>
                     <li>Hotel El Reposo Del Diablo</li>
                     <li>Bella Tilcara Hotel Boutique</li>
+                    <li>Patio Alto</li>
                   </ul>
                 </div>
                 <div>
                   <h5 className="text-lg font-semibold text-lime-900">Opción 2: Huacalera</h5>
-                  <p className="text-lime-900/90 leading-relaxed">A 8 km del viñedo, alternativa cercana.</p>
+                  <p className="text-lime-900/90 leading-relaxed">Hotel Huacalera a 8 km del viñedo.</p>
                 </div>
               </div>
               <div className="mt-6 flex justify-end gap-3">
