@@ -97,7 +97,7 @@ const Invitacion = () => {
         </section>
         <section className="border-b-2 border-[#D4AF37]">
           <DatosBancarios
-            tituloBoton="Datos bancarios de Lauri"
+            tituloBoton="Datos Bancarios de Lauri"
             tituloModal="Datos Bancarios de Lauri"
             texto="El valor de la tarjeta es de $175.000 por persona. Muchas gracias por ser parte de este momento tan importante para nosotros."
             cbu="0070121730004165984723"
