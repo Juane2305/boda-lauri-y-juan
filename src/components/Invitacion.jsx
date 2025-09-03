@@ -4,16 +4,15 @@ import GoogleCalendarButton from "./GoogleCalendarButton";
 import Asistencia from "../components/Asistencia";
 import Footer from "./Footer";
 import TextoFinal from "./TextoFinal";
-import GalleryVintage from "./GalleryVintage";
 import DatosBancarios from "./DatosBancarios";
-import dresscode from "../assets/dress-code.svg";
+import dresscode from "../assets/dress-code.png";
 import hojasVerdesIzq from "../assets/hojasVerdesIzq.svg";
 import hojasVerdes2 from "../assets/hojasVerdes2.svg";
 import DressCodeVintage from "./DressCodeVintage";
 import InfoUtil from "./InfoUtil";
 import Contactos from "./Contactos";
 import MusicScreen from "./MusicScreen";
-import cancion from "../assets/song.mp3"
+import cancion from "../assets/song.mp3";
 
 const Invitacion = () => {
   const targetDate = new Date("2025-11-01T00:00:00-03:00");
@@ -22,9 +21,9 @@ const Invitacion = () => {
 
   return (
     <div className="w-full font-vintageText relative overflow-hidden bg-[#FAF3E0]">
-              <div className="absolute">
-          <MusicScreen cancion={cancion}/>
-        </div>
+      <div className="absolute">
+        <MusicScreen cancion={cancion} />
+      </div>
       <div className="fixed inset-0 -z-10 bg-cover bg-center"></div>
       <div className="fixed top-4 right-4 z-50"></div>
       <div className="flex flex-col justify-center items-center h-screen w-full text-center bg-[url('https://res.cloudinary.com/dfschbyq2/image/upload/v1740755815/Disen%CC%83o_Elegante_gem3ut_xq0rzs.webp')] bg-cover bg-no-repeat bg-center md:bg-fixed border-b-2 border-[#D4AF37] relative">
@@ -98,6 +97,8 @@ const Invitacion = () => {
         </section>
         <section className="border-b-2 border-[#D4AF37]">
           <DatosBancarios
+            tituloBoton="Datos bancarios de Lauri"
+            tituloModal="Datos Bancarios de Lauri"
             texto="El valor de la tarjeta es de $175.000 por persona. Muchas gracias por ser parte de este momento tan importante para nosotros."
             cbu="0070121730004165984723"
             alias="casorio.lau.juan"

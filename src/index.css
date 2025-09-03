@@ -7,3 +7,7 @@
 
     --color-gold: #c9a660;
 }
+
+body{
+    font-family: var(--font-vintageText);
+}

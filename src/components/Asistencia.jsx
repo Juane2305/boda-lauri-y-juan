@@ -24,6 +24,9 @@ const Asistencia = ({ clase, claseButton, claseTitle, linkAsistencia }) => {
             >
               Confirmación de Asistencia
             </h2>
+            <p className="text-lg text-center text-gray-700" data-aos="fade-up">
+              La confirmación de asistencia es hasta el 30/09.
+            </p>
             <a href={linkAsistencia} target="_blank" rel="noopener noreferrer" data-aos="fade-up">
               <button className={`py-4 px-6 mt-5 transform transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-lg ${claseButton}`}>
                 Confirmar asistencia

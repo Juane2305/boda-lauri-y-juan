@@ -1,4 +1,4 @@
-import dress from '../assets/dress-code.svg'
+import dress from '../assets/dress-code.png'
 
 
 const DressCodeVintage = () => {

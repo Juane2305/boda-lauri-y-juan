@@ -4,6 +4,8 @@ import 'aos/dist/aos.css';
 import { IoCopyOutline } from "react-icons/io5";
 
 export const Modal = ({
+  tituloBoton,
+  tituloModal,
   claseBoton,
   claseBotonModal,
   borderModal,
@@ -48,14 +50,14 @@ export const Modal = ({
         data-aos='fade-up'
         onClick={() => setIsOpen(true)}
       >
-        Ver Datos Bancarios
+        {tituloBoton}
       </button>
 
       {isOpen && (
         <div className={`fixed inset-0 bg-lime-900/30  backdrop-blur-md flex justify-center items-center z-50`} >
           <div className={`bg-white p-10 rounded-lg flex flex-col justify-center items-center border-2 ${borderModal}`} style={styleBorderModal}>
             <div className="flex flex-col justify-center text-center space-y-7 text-gray-900 w-full max-w-md ">
-              <h2 className="font-bold text-2xl">Datos Bancarios</h2>
+              <h2 className="font-bold text-2xl">{tituloModal}</h2>
               {moneda_extranjera && moneda_extranjera.trim() !== "" && (
               <h3 className="text-xl font-semibold mb-4">Datos en Pesos</h3>
               )}

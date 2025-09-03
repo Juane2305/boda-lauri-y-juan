@@ -20,7 +20,7 @@ const Places = () => {
         <div className=' flex flex-col justify-center items-center gap-y-3  md:w-[50%]' data-aos= 'fade-right'>
           <img src={church} alt="" className='size-35'/>
           <h2 className='text-center font-semibold text-3xl tracking-wider italic'>Ceremonia</h2>
-          <p className='font-extralight text-xl text-center px-5 text-gray-700'>La ceremonia se realizará en <strong>Nuestra señora del Rosario de Tilcara</strong> a las <strong>15:45 hs</strong></p>
+          <p className='font-extralight text-xl text-center px-5 text-gray-700'>La ceremonia se realizará en <strong>Nuestra señora del Rosario de Tilcara</strong> a las <strong>15:30 hs</strong></p>
           <div className="flex justify-center items-center mt-5">
             <a
               href="https://maps.app.goo.gl/aCFg7Crfrh7vhhEeA"
@@ -35,8 +35,8 @@ const Places = () => {
         </div>
         <div className=' flex flex-col justify-center items-center gap-y-3 md:w-[50%]' data-aos= 'fade-left'>
           <img src={copas} alt="" className='size-40'/>
-          <h2 className='text-center font-semibold text-3xl tracking-wider italic'>Fiesta</h2>
-          <p className='font-extralight text-xl text-center px-5 text-gray-700'>Continuaremos con la fiesta en <strong>Viñedo Yacoraite, ubicado en la Quebrada de Humahuaca a 18 Km de Tilcara</strong> a las 17:00 hs</p>
+          <h2 className='text-center font-semibold text-3xl tracking-wider italic'>Civil y Fiesta</h2>
+          <p className='font-extralight text-xl text-center px-5 text-gray-700'>Continuaremos con el civil y fiesta en <strong>Viñedo Yacoraite, ubicado en la Quebrada de Humahuaca a 18 Km de Tilcara</strong> a las 16:45 hs</p>
           <div className="flex justify-center items-center mt-5">
             <a
               href="https://maps.app.goo.gl/mLKR7smfZcYCcN2P7"
